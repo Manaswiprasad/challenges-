@@ -1,0 +1,54 @@
+Git is an open-source distributed version control system that lets developers track changes in code, manage project history, and collaborate without needing a constant internet connection. It works locally, allowing you to create branches, make commits, and merge changes while keeping a complete history of your project. Its decentralized nature means every developer has a full copy of the repository, enabling offline work and independent experimentation.
+
+GitHub, on the other hand, is a cloud-based hosting platform for Git repositories. It builds on Git’s capabilities by adding collaboration, project management, and automation tools. With GitHub, teams can store code centrally, review changes via pull requests, track issues, manage tasks with project boards, and even automate workflows using GitHub Actions.
+
+How They Work Together A typical workflow combines both tools:
+
+Local Development with Git – You edit code, commit changes, and manage branches locally.
+
+Push to GitHub – Your commits are uploaded to a remote repository for backup and sharing.
+
+Collaboration – Teammates pull your changes, propose updates, and review code through GitHub’s interface.
+
+Merge & Deploy – Git merges changes, while GitHub manages the process and integrates with CI/CD pipelines.
+
+Key Differences
+
+Nature: Git is software; GitHub is a service.
+
+Location: Git runs locally; GitHub is hosted online.
+
+Function: Git tracks code changes; GitHub facilitates collaboration and hosting.
+
+Interface: Git is CLI-based (with optional GUIs); GitHub is web-based with GUI tools like GitHub Desktop.
+
+Example Commands (Git with GitHub)
+
+# Clone a remote GitHub repository
+git clone https://github.com/user/repo.git
+
+# Create a new branch
+git checkout -b feature-branch
+
+# Commit changes
+git add
+git commit -m "Add new feature"
+
+# Push branch to GitHub
+git push origin feature-branch
+Copy
+When to Use
+
+Git only: Solo/local projects without online collaboration.
+
+GitHub only: Not possible—GitHub requires Git.
+
+Both: Standard for team projects, open-source contributions, and remote collaboration.
+
+Learn more:
+1 -
+geeksforgeeks.org
+2 -
+docs.github.com
+3 -
+datacamp.com
